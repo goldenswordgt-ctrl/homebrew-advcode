@@ -1,15 +1,15 @@
 class Advcode < Formula
   desc "advcode - the AI coding agent that learns from experience"
   homepage "https://github.com/goldenswordgt-ctrl/advcode"
-  url "https://github.com/goldenswordgt-ctrl/advcode/releases/download/v0.3.1/advcode-darwin-arm64.tar.gz"
-  sha256 "c26d0103c6e4a722506e83edd8a7933d09d517a01e716a6c832341bfa78bac81"
+  url "https://github.com/goldenswordgt-ctrl/advcode/releases/download/v0.3.2/advcode-darwin-arm64.tar.gz"
+  sha256 "994f56eac3e4712a208f4447323ea83fd3a95eb53ded3b7291a38c7257d45d86"
   license "MIT"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/goldenswordgt-ctrl/advcode/releases/download/v0.3.1/advcode-darwin-arm64.tar.gz"
-      sha256 "c26d0103c6e4a722506e83edd8a7933d09d517a01e716a6c832341bfa78bac81"
+      url "https://github.com/goldenswordgt-ctrl/advcode/releases/download/v0.3.2/advcode-darwin-arm64.tar.gz"
+      sha256 "994f56eac3e4712a208f4447323ea83fd3a95eb53ded3b7291a38c7257d45d86"
     end
   end
 
