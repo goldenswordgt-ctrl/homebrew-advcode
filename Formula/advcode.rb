@@ -15,9 +15,12 @@ class Advcode < Formula
 
   def install
     bin.install "advcode"
+    bin.install_symlink "advcode" => "advcall"
   end
 
   test do
     assert_match "advcode", shell_output("#{bin}/advcode --help")
+    assert_path_exists "#{bin}/advcall"
+    assert_equal File.realpath("#{bin}/advcode"), File.realpath("#{bin}/advcall")
   end
 end
